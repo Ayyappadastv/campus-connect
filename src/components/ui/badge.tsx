@@ -12,6 +12,16 @@ const badgeVariants = cva(
         secondary: "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
         destructive: "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
         outline: "text-foreground",
+        // Status variants
+        new: "border-transparent bg-status-new/15 text-status-new",
+        "in-progress": "border-transparent bg-status-in-progress/15 text-status-in-progress",
+        pending: "border-transparent bg-status-pending/15 text-status-pending",
+        resolved: "border-transparent bg-status-resolved/15 text-status-resolved",
+        closed: "border-transparent bg-status-closed/15 text-status-closed",
+        // Priority variants
+        low: "border-transparent bg-priority-low/15 text-priority-low",
+        medium: "border-transparent bg-priority-medium/15 text-priority-medium",
+        high: "border-transparent bg-priority-high/15 text-priority-high",
       },
     },
     defaultVariants: {
